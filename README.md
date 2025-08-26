@@ -1,4 +1,3 @@
-# Hi there 👋
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=🔬+Estudante+de+Python%2C+IA+e+Automação;💡+Criando+soluções+para+problemas+reais;📌+Sempre+aprendendo%2C+sempre+construindo" alt="Typing SVG" />
