@@ -149,3 +149,183 @@
     </div>
   </foreignObject>
 </svg>
+
+</div>
+
+---
+
+## **🛠️ Tech Stack Ultra-Moderna**
+
+<div align="center">
+
+<!-- Grid de tecnologias com efeitos hover 3D -->
+<svg width="700" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="hover3d">
+      <feDropShadow dx="0" dy="10" stdDeviation="5" flood-color="#2563EB" flood-opacity="0.4"/>
+    </filter>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E293B"/>
+      <stop offset="100%" style="stop-color:#334155"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Python -->
+  <g transform="translate(50, 50)">
+    <rect width="80" height="80" rx="20" fill="url(#techGradient)" filter="url(#hover3d)" stroke="#3776AB" stroke-width="2">
+      <animate attributeName="y" values="0;-5;0" dur="2s" repeatCount="indefinite" begin="0s"/>
+    </rect>
+    <text x="40" y="45" text-anchor="middle" fill="#3776AB" font-size="32" font-weight="bold">Py</text>
+    <text x="40" y="105" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Inter">Python</text>
+  </g>
+  
+  <!-- TensorFlow -->
+  <g transform="translate(200, 50)">
+    <rect width="80" height="80" rx="20" fill="url(#techGradient)" filter="url(#hover3d)" stroke="#FF6F00" stroke-width="2">
+      <animate attributeName="y" values="0;-5;0" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </rect>
+    <text x="40" y="45" text-anchor="middle" fill="#FF6F00" font-size="32" font-weight="bold">TF</text>
+    <text x="40" y="105" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Inter">TensorFlow</text>
+  </g>
+  
+  <!-- Git -->
+  <g transform="translate(350, 50)">
+    <rect width="80" height="80" rx="20" fill="url(#techGradient)" filter="url(#hover3d)" stroke="#F05032" stroke-width="2">
+      <animate attributeName="y" values="0;-5;0" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+    <text x="40" y="45" text-anchor="middle" fill="#F05032" font-size="32" font-weight="bold">Git</text>
+    <text x="40" y="105" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Inter">Git</text>
+  </g>
+  
+  <!-- VS Code -->
+  <g transform="translate(500, 50)">
+    <rect width="80" height="80" rx="20" fill="url(#techGradient)" filter="url(#hover3d)" stroke="#007ACC" stroke-width="2">
+      <animate attributeName="y" values="0;-5;0" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </rect>
+    <text x="40" y="45" text-anchor="middle" fill="#007ACC" font-size="28" font-weight="bold">VS</text>
+    <text x="40" y="105" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Inter">VS Code</text>
+  </g>
+  
+  <!-- Conexões animadas entre tecnologias -->
+  <line x1="130" y1="90" x2="200" y2="90" stroke="#60A5FA" stroke-width="2" opacity="0.6">
+    <animate attributeName="stroke-dasharray" values="0,70;70,70" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="280" y1="90" x2="350" y2="90" stroke="#60A5FA" stroke-width="2" opacity="0.6">
+    <animate attributeName="stroke-dasharray" values="0,70;70,70" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </line>
+  <line x1="430" y1="90" x2="500" y2="90" stroke="#60A5FA" stroke-width="2" opacity="0.6">
+    <animate attributeName="stroke-dasharray" values="0,70;70,70" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </line>
+</svg>
+
+</div>
+
+---
+
+## **📊 GitHub Analytics Futurísticas**
+
+<div align="center">
+
+<!-- Container responsivo para stats com modo escuro/claro otimizado -->
+<picture>
+  <source 
+    srcset="https://github-readme-stats.vercel.app/api?username=daviscpr2&show_icons=true&theme=tokyonight&bg_color=0D1117&text_color=C9D1D9&icon_color=58A6FF&title_color=58A6FF&border_color=21262D&hide_border=true&border_radius=15&custom_title=⚡+GitHub+Analytics&include_all_commits=true&count_private=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=daviscpr2&show_icons=true&theme=default&bg_color=FFFFFF&text_color=24292F&icon_color=2563EB&title_color=2563EB&border_color=D0D7DE&hide_border=true&border_radius=15&custom_title=⚡+GitHub+Analytics&include_all_commits=true&count_private=true"
+    alt="GitHub Stats"
+  />
+</picture>
+
+<br><br>
+
+<!-- Streak stats com design futurístico -->
+<picture>
+  <source 
+    srcset="https://github-readme-streak-stats.herokuapp.com?user=daviscpr2&theme=tokyonight&background=0D1117&border=21262D&stroke=C9D1D9&ring=58A6FF&fire=FF6B6B&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E&hide_border=true&border_radius=15"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img 
+    src="https://github-readme-streak-stats.herokuapp.com?user=daviscpr2&theme=default&background=FFFFFF&border=D0D7DE&stroke=24292F&ring=2563EB&fire=DC2626&currStreakNum=24292F&sideNums=656D76&currStreakLabel=656D76&sideLabels=656D76&dates=656D76&hide_border=true&border_radius=15"
+    alt="GitHub Streak"
+  />
+</picture>
+
+<br><br>
+
+<!-- Activity Graph com design moderno -->
+<picture>
+  <source 
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=daviscpr2&theme=tokyo-night&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=58A6FF&area=true&area_color=58A6FF&hide_border=true&radius=15"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=daviscpr2&theme=minimal&bg_color=FFFFFF&color=24292F&line=2563EB&point=2563EB&area=true&area_color=2563EB&hide_border=true&radius=15"
+    alt="Activity Graph"
+  />
+</picture>
+
+<br><br>
+
+<!-- Languages com layout futurístico -->
+<picture>
+  <source 
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=daviscpr2&layout=donut-vertical&theme=tokyonight&bg_color=0D1117&text_color=C9D1D9&title_color=58A6FF&border_color=21262D&hide_border=true&border_radius=15&langs_count=8&custom_title=🚀+Languages+Universe"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviscpr2&layout=donut-vertical&theme=default&bg_color=FFFFFF&text_color=24292F&title_color=2563EB&border_color=D0D7DE&hide_border=true&border_radius=15&langs_count=8&custom_title=🚀+Languages+Universe"
+    alt="Top Languages"
+  />
+</picture>
+
+</div>
+
+---
+
+## **🎯 Projetos em Destaque Futurístico**
+
+<div align="center">
+
+<!-- Card de projeto com efeito hover 3D customizado -->
+<svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="projectGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E293B"/>
+      <stop offset="50%" style="stop-color:#334155"/>
+      <stop offset="100%" style="stop-color:#475569"/>
+    </linearGradient>
+    <filter id="projectGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="580" height="130" x="10" y="10" rx="20" fill="url(#projectGradient)" 
+        stroke="#2563EB" stroke-width="2" filter="url(#projectGlow)">
+    <animate attributeName="stroke-width" values="2;4;2" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Ícone animado -->
+  <circle cx="60" cy="75" r="25" fill="#2563EB" opacity="0.8">
+    <animate attributeName="r" values="25;30;25" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="60" y="82" text-anchor="middle" fill="white" font-size="24">📁</text>
+  
+  <!-- Conteúdo do projeto -->
+  <text x="110" y="50" fill="#60A5FA" font-size="20" font-weight="bold" font-family="Inter">
+    🚀 Organizador de Arquivos Python
+  </text>
+  <text x="110" y="75" fill="#CBD5E1" font-size="14" font-family="Inter">
+    Automação inteligente para organização de arquivos
+  </text>
+  <text x="110" y="95" fill="#94A3B8" font-size="12" font-family="Inter">
+    Python • Automação • File Management • AI
+  </text>
+  
+  <!-- Botão de ação futurístico -->
+  <rect x=
