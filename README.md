@@ -108,4 +108,105 @@
       <stop offset="100%" style="stop-color:#1D4ED8"/>
     </linearGradient>
     <linearGradient id="face3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop
+      <stop offset="0%" style="stop-color:#1D4ED8"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(60,60)">
+    <!-- Cube faces with 3D effect -->
+    <polygon points="-25,-25 25,-25 25,25 -25,25" fill="url(#face1)" stroke="#FFFFFF" stroke-width="1" opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="25,-25 40,-40 40,10 25,25" fill="url(#face2)" stroke="#FFFFFF" stroke-width="1" opacity="0.7">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="-25,-25 -10,-40 40,-40 25,-25" fill="url(#face3)" stroke="#FFFFFF" stroke-width="1" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+</svg>
+
+</td>
+</tr>
+</table>
+
+---
+
+## **🛠️ Tech Stack**
+
+<div align="center">
+
+<!-- 3D Tech Icons com hover effect -->
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="3" dy="6" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC"/>
+      <stop offset="100%" style="stop-color:#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Python -->
+  <g transform="translate(50, 50)">
+    <circle r="25" fill="url(#iconBg)" stroke="#2563EB" stroke-width="2" filter="url(#shadow)">
+      <animate attributeName="r" values="25;28;25" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+           x="-15" y="-15" width="30" height="30">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="8s" repeatCount="indefinite"/>
+    </image>
+  </g>
+  
+  <!-- TensorFlow -->
+  <g transform="translate(150, 50)">
+    <circle r="25" fill="url(#iconBg)" stroke="#2563EB" stroke-width="2" filter="url(#shadow)">
+      <animate attributeName="r" values="25;28;25" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" 
+           x="-15" y="-15" width="30" height="30">
+      <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="3s" repeatCount="indefinite"/>
+    </image>
+  </g>
+  
+  <!-- Git -->
+  <g transform="translate(250, 50)">
+    <circle r="25" fill="url(#iconBg)" stroke="#2563EB" stroke-width="2" filter="url(#shadow)">
+      <animate attributeName="r" values="25;28;25" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" 
+           x="-15" y="-15" width="30" height="30">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;-360 0 0" dur="12s" repeatCount="indefinite"/>
+    </image>
+  </g>
+  
+  <!-- VS Code -->
+  <g transform="translate(350, 50)">
+    <circle r="25" fill="url(#iconBg)" stroke="#2563EB" stroke-width="2" filter="url(#shadow)">
+      <animate attributeName="r" values="25;28;25" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" 
+           x="-15" y="-15" width="30" height="30">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="15s" repeatCount="indefinite"/>
+    </image>
+  </g>
+</svg>
+
+</div>
+
+---
+
+## **📊 GitHub Stats**
+
+<div align="center">
+
+<!-- Stats com glassmorphism background -->
+<svg width="100%" height="40" viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:0.1"/>
+      <stop offset="50%" style="stop-color:#1E40AF;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:0.1"/>
+    </linearGradient
