@@ -1,138 +1,140 @@
+<!-- Header with animated wave and gradient text -->
 <div align="center">
-
-# 👋 **Davi Santiago**
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 20px; backdrop-filter: blur(10px);">
-  
-```ascii
-╔═══════════════════════════════════════════════╗
-║  🔬 Python, IA & Automação                  ║
-║  💡 Soluções para problemas reais            ║
-║  📌 Always building, always learning         ║
-╚═══════════════════════════════════════════════╝
-```
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=DAVI%20SANTIAGO&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35"/>
+<!-- Animated typing with glassmorphic background -->
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.2); padding: 20px; margin: 20px 0;">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=🔬+Python%2C+IA+%26+Automação;💡+Building+real-world+solutions;📌+Always+learning%2C+always+building" alt="Typing Animation"/>
+</div>
+<!-- Profile Info Cards with hover effects -->
+<table>
+<tr>
+<td>
+<img src="https://img.shields.io/badge/🎓_Student-Cesar_School-4A90E2?style=for-the-badge&logo=academic-cap&logoColor=white&labelColor=0D1117"/>
+</td>
+<td>
+<img src="https://img.shields.io/badge/📍_Based_in-Recife,_PE-FF6B6B?style=for-the-badge&logo=map-pin&logoColor=white&labelColor=0D1117"/>
+</td>
+<td>
+<img src="https://img.shields.io/badge/🌐_Portfolio-Live_Now-4ECDC4?style=for-the-badge&logo=external-link&logoColor=white&labelColor=0D1117"/>
+</td>
+</tr>
+</table>
 </div>
 
-<br>
-
-![](https://img.shields.io/badge/🎓_Student-Cesar_School-4A90E2?style=flat-square&labelColor=1a1a1a)
-![](https://img.shields.io/badge/📍_Location-Recife,_PE-FF6B6B?style=flat-square&labelColor=1a1a1a)
-![](https://img.shields.io/badge/🌐_Portfolio-Live-4ECDC4?style=flat-square&labelColor=1a1a1a)
-
+<!-- Animated divider -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+<!-- Bio Section with animated borders -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,11,20&height=60&section=header&text=About%20Me&fontSize=24&fontColor=fff&animation=fadeIn"/>
 </div>
-
----
-
-## **🚀** **About**
-
 <table width="100%">
 <tr>
-<td width="50%">
-
-**Current Focus:**
-- 🔬 **Python Development**
-- 🤖 **AI & Machine Learning** 
-- ⚙️ **Process Automation**
-- 🎓 **Computer Science @ Cesar School**
-
+<td width="30%" align="center">
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="150"/>
 </td>
-<td width="50%">
-
-**Key Info:**
-- 🏠 **Main Profile:** [`@daviscpr2`](https://github.com/daviscpr2)
-- 🎯 **Academic Work:** [`@DaviSantiago01`](https://github.com/DaviSantiago01)
-- 🌐 **Portfolio:** [Live Site](https://portfolio-davi-santiago.vercel.app)
-- 📍 **Based in:** Recife, Pernambuco, Brasil
-
+<td width="70%">
+yamlname: "Davi Santiago"
+focus: ["Python Development", "AI & Machine Learning", "Process Automation"]
+education: "Computer Science @ Cesar School"
+location: "Recife, Pernambuco, Brasil"
+main_profile: "@daviscpr2"
+academic_work: "@DaviSantiago01"
+portfolio: "portfolio-davi-santiago.vercel.app"
+philosophy: "Code is poetry in motion ✨"
 </td>
 </tr>
 </table>
 
----
-
-## **🛠** **Tech Arsenal**
-
+<!-- Tech Stack with animated icons -->
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=12,20,6&height=60&section=header&text=Tech%20Arsenal&fontSize=24&fontColor=fff&animation=fadeIn"/>
+<br><br>
+<!-- SVG with custom animations -->
+<svg width="600" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#45b7d1;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#96ceb4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffeaa7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="50" r="25" fill="url(#techGradient)" opacity="0.8">
+    <animate attributeName="cy" values="50;30;50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="100" y="85" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="12">Python</text>
+  <circle cx="200" cy="50" r="25" fill="url(#techGradient)" opacity="0.8">
+    <animate attributeName="cy" values="50;30;50" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="200" y="85" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="12">AI/ML</text>
+  <circle cx="300" cy="50" r="25" fill="url(#techGradient)" opacity="0.8">
+    <animate attributeName="cy" values="50;30;50" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="300" y="85" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="12">Automation</text>
+  <circle cx="400" cy="50" r="25" fill="url(#techGradient)" opacity="0.8">
+    <animate attributeName="cy" values="50;30;50" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="400" y="85" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="12">Git</text>
+  <circle cx="500" cy="50" r="25" fill="url(#techGradient)" opacity="0.8">
+    <animate attributeName="cy" values="50;30;50" dur="2s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="500" y="85" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="12">VS Code</text>
+</svg>
+</div>
 
+<!-- Stats with modern layout -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=20,6,12&height=60&section=header&text=Analytics&fontSize=24&fontColor=fff&animation=fadeIn"/>
+<br><br>
+<!-- Custom animated stats layout -->
 <table>
 <tr>
-<td align="center" width="120">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48"/>
-<br><sub><b>Python</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" height="48"/>
-<br><sub><b>AI/ML</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" width="48" height="48"/>
-<br><sub><b>Automation</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48"/>
-<br><sub><b>Git</b></sub>
+<td align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=daviscpr2&show_icons=true&theme=tokyonight&hide_border=true&border_radius=20&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&custom_title=Davi's%20GitHub%20Stats" />
 </td>
 </tr>
-</table>
-
-</div>
-
----
-
-## **📊** **Analytics**
-
-<div align="center">
-<table>
 <tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=daviscpr2&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF" alt="GitHub Stats" />
+<td align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviscpr2&layout=donut-vertical&theme=tokyonight&hide_border=true&border_radius=20&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&custom_title=Languages" />
 </td>
-<td>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviscpr2&layout=compact&theme=tokyonight&hide_border=true&border_radius=15&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=4" alt="Top Languages" />
+</tr>
+<tr>
+<td align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=daviscpr2&theme=tokyonight&hide_border=true&border_radius=20&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
 </td>
 </tr>
 </table>
 </div>
 
+<!-- Featured work with animated showcase -->
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=daviscpr2&theme=tokyonight&hide_border=true&border_radius=15&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&dates=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&sideLabels=C9D1D9" alt="GitHub Streak" />
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,20,12&height=60&section=header&text=Featured%20Work&fontSize=24&fontColor=fff&animation=fadeIn"/>
+<br><br>
+Show Image
 </div>
 
----
-
-## **🎯** **Featured Work**
-
+<!-- Connect section with social proof -->
 <div align="center">
-
-[![Organizador de Arquivos](https://github-readme-stats.vercel.app/api/pin/?username=daviscpr2&repo=Organizador-De-Arquivos-Py&theme=tokyonight&hide_border=true&border_radius=15&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)](https://github.com/daviscpr2/Organizador-De-Arquivos-Py)
-
-</div>
-
----
-
-## **🔗** **Connect**
-
-<div align="center">
-
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=12,6,20&height=60&section=header&text=Let's%20Connect&fontSize=24&fontColor=fff&animation=fadeIn"/>
+<br><br>
+<!-- Social links with custom styling -->
 <a href="https://portfolio-davi-santiago.vercel.app">
-<img src="https://img.shields.io/badge/🌐_Portfolio-4A90E2?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000"/>
+<img src="https://img.shields.io/badge/🌐_Portfolio-Live_Demo-4A90E2?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000&color=4A90E2"/>
 </a>
 <a href="https://linkedin.com/in/davi-santiago-a94284334">
-<img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000"/>
+<img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000&color=0077B5"/>
 </a>
 <a href="mailto:daviscpr2@email.com">
-<img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000"/>
+<img src="https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000&color=D14836"/>
 </a>
-
+<br><br>
+<!-- Visitor counter with style -->
+<img src="https://komarev.com/ghpvc/?username=daviscpr2&color=58A6FF&style=for-the-badge&label=Profile+Views"/>
 </div>
-
----
-
-<div align="center">
-
+<!-- Footer with animated wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer"/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=daviscpr2&color=58A6FF&style=flat-square&label=views)
-
+<!-- Hidden quote that appears on hover (CSS trick) -->
+<div align="center">
+<sub><i>"Innovation distinguishes between a leader and a follower." - Steve Jobs</i></sub>
 </div>
