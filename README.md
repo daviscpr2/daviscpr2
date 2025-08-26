@@ -209,4 +209,150 @@
       <stop offset="0%" style="stop-color:#2563EB;stop-opacity:0.1"/>
       <stop offset="50%" style="stop-color:#1E40AF;stop-opacity:0.05"/>
       <stop offset="100%" style="stop-color:#2563EB;stop-opacity:0.1"/>
-    </linearGradient
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="40" rx="20" fill="url(#statsBg)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#2563EB">
+    📊 GitHub Analytics
+  </text>
+</svg>
+
+<br><br>
+
+<picture>
+  <source 
+    srcset="https://github-readme-stats.vercel.app/api?username=daviscpr2&show_icons=true&theme=dark&bg_color=0d1117&text_color=e6edf3&icon_color=2563eb&title_color=f0f6fc&border_color=30363d&hide_border=true&border_radius=15&custom_title=GitHub+Stats"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=daviscpr2&show_icons=true&theme=default&bg_color=ffffff&text_color=24292f&icon_color=2563eb&title_color=24292f&border_color=d1d9e0&hide_border=true&border_radius=15&custom_title=GitHub+Stats"
+    alt="GitHub Stats"
+  />
+</picture>
+
+<br><br>
+
+<picture>
+  <source 
+    srcset="https://github-readme-streak-stats.herokuapp.com?user=daviscpr2&theme=dark&background=0d1117&border=30363d&stroke=e6edf3&ring=2563eb&fire=58a6ff&currStreakNum=f0f6fc&sideNums=e6edf3&currStreakLabel=7d8590&sideLabels=7d8590&dates=7d8590&hide_border=true&border_radius=15"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img 
+    src="https://github-readme-streak-stats.herokuapp.com?user=daviscpr2&theme=default&background=ffffff&border=d1d9e0&stroke=24292f&ring=2563eb&fire=f56565&currStreakNum=24292f&sideNums=656d76&currStreakLabel=656d76&sideLabels=656d76&dates=656d76&hide_border=true&border_radius=15"
+    alt="GitHub Streak"
+  />
+</picture>
+
+<br><br>
+
+<picture>
+  <source 
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=daviscpr2&layout=compact&theme=dark&bg_color=0d1117&text_color=e6edf3&title_color=f0f6fc&border_color=30363d&hide_border=true&border_radius=15&langs_count=6"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviscpr2&layout=compact&theme=default&bg_color=ffffff&text_color=24292f&title_color=24292f&border_color=d1d9e0&hide_border=true&border_radius=15&langs_count=6"
+    alt="Top Languages"
+  />
+</picture>
+
+</div>
+
+---
+
+## **🎯 Projetos em Destaque**
+
+<div align="center">
+
+<picture>
+  <source 
+    srcset="https://github-readme-stats.vercel.app/api/pin/?username=daviscpr2&repo=Organizador-De-Arquivos-Py&theme=dark&bg_color=0d1117&text_color=e6edf3&icon_color=2563eb&title_color=f0f6fc&border_color=30363d&hide_border=true&border_radius=15"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/pin/?username=daviscpr2&repo=Organizador-De-Arquivos-Py&theme=default&bg_color=ffffff&text_color=24292f&icon_color=2563eb&title_color=24292f&border_color=d1d9e0&hide_border=true&border_radius=15"
+    alt="Organizador de Arquivos"
+  />
+</picture>
+
+</div>
+
+---
+
+## **🔗 Conecte-se comigo**
+
+<div align="center">
+
+<!-- Connection buttons with 3D effect -->
+<svg width="400" height="80" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+    <filter id="btnShadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="2" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <rect x="50" y="20" width="80" height="30" rx="15" fill="url(#btnGrad)" filter="url(#btnShadow)">
+    <animate attributeName="y" values="20;18;20" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="90" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">Portfolio</text>
+  
+  <rect x="160" y="20" width="80" height="30" rx="15" fill="url(#btnGrad)" filter="url(#btnShadow)">
+    <animate attributeName="y" values="20;18;20" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="200" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">LinkedIn</text>
+  
+  <rect x="270" y="20" width="80" height="30" rx="15" fill="url(#btnGrad)" filter="url(#btnShadow)">
+    <animate attributeName="y" values="20;18;20" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="310" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">Email</text>
+</svg>
+
+<br>
+
+<a href="https://portfolio-davi-santiago.vercel.app">
+<img src="https://img.shields.io/badge/🌐_Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/davi-santiago-a94284334">
+<img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="mailto:daviscpr2@email.com">
+<img src="https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email"/>
+</a>
+
+<br><br>
+
+<a href="https://github.com/DaviSantiago01">
+<img src="https://img.shields.io/badge/📚_Academic_Profile-1F2937?style=for-the-badge&logo=github&logoColor=white&labelColor=2563EB" alt="Academic Profile"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- Footer with wave animation -->
+<svg width="100%" height="60" viewBox="0 0 400 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#1E40AF;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <path d="M0,30 Q100,10 200,30 T400,30 V60 H0 V30" fill="url(#wave)">
+    <animateTransform attributeName="transform" type="translate" values="-400 0;0 0;-400 0" dur="8s" repeatCount="indefinite"/>
+  </path>
+</svg>
+
+<img src="https://komarev.com/ghpvc/?username=daviscpr2&color=2563eb&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+
+</div>
